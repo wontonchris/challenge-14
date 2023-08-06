@@ -23,7 +23,7 @@ Project.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
+    needed_money: {
       type: DataTypes.FLOAT,
       allowNull: false,
     },
@@ -45,3 +45,4 @@ Project.init(
 );
 
 module.exports = Project;
+
